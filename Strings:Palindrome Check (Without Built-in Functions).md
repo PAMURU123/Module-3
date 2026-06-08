@@ -1,3 +1,4 @@
+# EX-4
 # Strings-Palindrome Check in Python (Without Built-in Functions)
 
 ## 🎯 Aim
@@ -12,9 +13,19 @@ To write a Python program to check whether the string `"google"` is a **palindro
 4. Execute the program.
 
 ## 🧾 Program
+```python
+s = "google"
 
-Add code here
+rev = s[::-1]
+
+if s == rev:
+    print("Palindrome String")
+else:
+    print("Not a Palindrome String")
+```
 
 ## Output
+<img width="1167" height="246" alt="image" src="https://github.com/user-attachments/assets/b215bbc5-3985-4807-b4be-5d79899c5e2c" />
 
 ## Result
+Thus the given program executed Sucessfully.
